@@ -1,0 +1,135 @@
+body {
+    background-color: #F1F6F9;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+h1 {
+    font-size: 45px; 
+    font-family: Georgia; 
+    color: #2c2c2c;
+    text-align: center;
+    letter-spacing: 10px;
+}
+h2 {
+    margin-left: 80px;
+    margin-bottom: -20px;
+    text-align: left;
+    font-size: 30px; 
+    font-family: Georgia;
+    padding-top: 50px;
+}
+p {
+    background-color: #e0e0e0;       
+    padding: 20px; 
+    font-family: Helvetica;
+    color: #000000;
+    text-align: justify;
+    text-indent: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+    line-height: 25px;
+}
+mark {
+    background-color: #2c2c2c;
+    padding: 5px 15px 5px;
+    color: #F1F6F9;
+}
+sup {
+    color: #2c2c2c;
+    font-weight: bold;
+    font-family: Helvetica;
+}
+.bottom-nav {
+    height: 40px;
+    width: 100%;
+    background-color: #2c2c2c;
+}
+.container {
+    text-align: right;
+    padding: 10px 20px 5px 5px;
+}
+#go-back {
+    margin: 5px 5px 5px 5px;
+    color: #F1F6F9;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Georgia;
+}
+#go-back:hover {
+    color: #6d6d6d;
+}
+
+.content-section {
+    display: inline-flex;
+    margin: 100px 200px 100px 200px;
+}
+
+.skills {
+    padding: 20px;
+}
+
+.hobbies {
+    padding: 20px;
+}
+
+.interest {
+    padding: 20px;
+}
+
+.skills-button {
+    font-family: Georgia;
+    font-size: 30px;
+    color: #2c2c2c;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 50px;
+    background-color: #e0e0e0;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.skills-button:hover {
+    color: #686868;
+}
+
+.hobbies-button {
+    font-family: Georgia;
+    font-size: 30px;
+    color: #2c2c2c;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 50px;
+    background-color: #e0e0e0;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.hobbies-button:hover {
+    color: #686868;
+}
+
+.interest-button {
+    font-family: Georgia;
+    font-size: 30px;
+    color: #2c2c2c;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 50px;
+    background-color: #e0e0e0;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.interest-button:hover {
+    color: #686868;
+}
+
+.go-top-button {
+    text-decoration: none;
+    background-color: #2c2c2c;
+    color: #F1F6F9;
+    border-radius: 30px;
+    padding: 10px;
+}
