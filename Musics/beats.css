@@ -1,0 +1,145 @@
+#beats-page {
+    margin: 0px;
+    padding: 0px;
+    background-color: #F1F6F9; 
+}
+
+.title h1 {
+    font-family: Georgia;
+    font-size: 45px;
+    color: #2c2c2c;
+    text-align: center;
+    letter-spacing: 10px;
+}
+
+.choices {
+    text-align: center;
+    margin: 100px;
+}
+
+.choices a {
+    font-family: Georgia;
+    font-size: 30px;
+    color: #2c2c2c;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 50px;
+    background-color: #e0e0e0;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.pop {
+    background-color: #e0e0e0;
+}
+
+.pop h2 {
+    text-align: center;
+    font-family: Georgia;
+    font-size: 30px;
+    color: #2c2c2c;
+    padding: 20px;
+}
+
+p {
+    font-family: Arial;
+    font-size: 16px;
+    color: #2c2c2c;
+    text-align: justify;
+}
+
+.ballad {
+    background-color: #ffffff;
+}
+
+.ballad h2 {
+    text-align: center;
+    font-family: Georgia;
+    font-size: 30px;
+    color: #2c2c2c;
+    padding: 20px;
+}
+
+.rock {
+    background-color: #e0e0e0;
+}
+
+.rock h2 {
+    text-align: center;
+    font-family: Georgia;
+    font-size: 30px;
+    color: #2c2c2c;
+    padding: 20px;
+}
+
+.poster {
+    border-radius: 20px;
+    width: 300px;
+    height: auto;
+}
+
+audio {
+    height: 30px;
+}
+
+.album {
+    display: flex;
+    margin: 50px;
+}
+
+.song {
+    text-align: center;
+}
+
+.song-title {
+    font-family: Georgia;
+    font-size: 20px;
+    color: #2c2c2c;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.song-title:hover {
+    color: #5a5a5a;
+    text-decoration: underline;
+}
+
+.description {
+    margin: 50px;
+}
+
+.top {
+   text-align: right;
+   padding: 20px;
+}
+
+.top a {
+    font-family: Georgia;
+    font-size: 15px;
+    text-decoration: none;
+    color: #F1F6F9;
+    background-color: #2c2c2c;
+    border-radius: 20px;
+    padding: 10px;
+ }
+
+.bottom-nav {
+    height: 40px;
+    width: 100%;
+    background-color: #2c2c2c;
+}
+.container {
+    text-align: right;
+    padding: 10px 20px 5px 5px;
+}
+#go-back {
+    margin: 5px 5px 5px 5px;
+    color: #F1F6F9;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Georgia;
+}
+#go-back:hover {
+    color: #6d6d6d;
+}

@@ -1,0 +1,108 @@
+#main-page {
+    background-image: url(Images/background-image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px;
+}
+@font-face {
+    font-family: Creattion;
+    src: url('Fonts/creattion-demo/Creattion\ Demo.otf');
+}
+.top-navigation {
+    height: 100px;
+    width: 100%;
+    background-color: #2c2c2c;
+    border-top: 3px #161616 solid;
+    border-bottom: 3px #161616 solid;
+}
+.logo-position {
+    float: left;
+}
+.navigation-logo-container {
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+}
+.navigation-logo {
+    height: auto;
+    width: 100px;
+}
+.navigation-title {
+    font-family: Georgia;
+    color: #fdfcfb;
+    font-size: 25px;
+    padding-top: 5px;
+    padding-left: 20px;
+}
+.top-navigation ul {
+    list-style: none;
+    float: right;
+    text-align: right;
+    padding-top: 20px;
+}
+.top-navigation li {
+    display: inline-block;
+}
+.top-navigation ul li a {
+    text-decoration: none;
+    font-family: Georgia;
+    font-size: 20px;
+    margin-right: 40px;
+    color: #fdfcfb;
+    font-weight: bold;
+}
+.top-navigation ul li a:hover {
+    text-decoration: none;
+    font-family: Georgia;
+    font-size: 20px;
+    margin-right: 40px;
+    color: #b6b6b6;
+    font-weight: bold;
+}
+.greet {
+    font-family: Creattion;
+    text-align: center;
+    color: #fdfcfb;
+    font-size: 180px;
+    font-weight: lighter;
+}
+.introduction {
+    font-family: Creattion;
+    text-align: center;
+    color: #fdfcfb;
+    font-size: 110px;
+    font-weight: lighter;
+}
+
+.walkthrough {
+    text-align: center;
+}
+
+.line-1 {
+    margin-top: 150px;
+}
+
+.line-2 {
+    margin-bottom: 100px;
+}
+
+.home-button {
+    text-decoration: none;
+    color: #fdfcfb;
+}
+
+.home-button:hover {
+    text-decoration: underline;
+    color: #818181;
+}
+
+.walkthrough-video {
+    width: 40%;
+    height: auto;
+}
+
+.walkthrough h3 {
+    font-family: Georgia;
+    font-size: 18px;
+    color: #fdfcfb;
+}
